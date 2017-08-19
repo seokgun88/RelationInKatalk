@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">나에게 넌 in 카톡</string>
+    <string name="action_settings">이용해주셔서 감사합니다.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

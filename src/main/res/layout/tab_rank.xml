@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sumTalkOpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="총대화수" />
+
+            <RadioButton
+                android:id="@+id/avrTalkOpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="하루대화" />
+
+            <RadioButton
+                android:id="@+id/avrDelayOpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="답장시간" />
+
+            <RadioButton
+                android:id="@+id/firstTalkRateOpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="선톡비율" />
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/rankLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

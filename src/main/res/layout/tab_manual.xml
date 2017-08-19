@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="카카오톡 대화내용 추출 방법"
+            android:layout_margin="10dp"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/savetalk"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="각 순위별 측정 데이터"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="총대화수 순위 : 지금까지 보낸 대화수로 측정"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="하루대화 순위 : 하루에 평균적으로 보낸 대화수로 측정"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="답장시간 순위 : 평균적인 답장 지연 시간으로 측정"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="선톡비율 순위 : 서로간 선톡한 횟수비로 측정"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="관심도종합순위 : 모든 데이터를 바탕으로 관심도 측정"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="\n\n\n"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>
